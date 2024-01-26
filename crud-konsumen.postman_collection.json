@@ -1,0 +1,131 @@
+{
+	"info": {
+		"_postman_id": "82e42177-2bf3-4661-8103-588a0c71280c",
+		"name": "crud-konsumen",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32505432"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/konsumen/create",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/konsumen/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"konsumen",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/konsumen/create/8",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "        {\r\n            \"id\": 8,\r\n            \"nama\": \"savira\",\r\n            \"tgl_lahir\": \"2007-06-30\",\r\n            \"umur\": 17,\r\n            \"alamat\": \"malang | dinoyo\"\r\n        }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/konsumen/create/8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"konsumen",
+						"create",
+						"8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/konsumen/create/10",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/konsumen/create/10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"konsumen",
+						"create",
+						"10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/konsumen/create/9",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/konsumen/create/9",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"konsumen",
+						"create",
+						"9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/konsumen/create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "        {\r\n            \"nama\": \"archio\",\r\n            \"tgl_lahir\": \"2006-06-08\",\r\n            \"umur\": 18,\r\n            \"alamat\": \"malang\"\r\n        }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/konsumen/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"konsumen",
+						"create"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
